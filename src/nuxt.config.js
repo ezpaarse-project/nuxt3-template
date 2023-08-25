@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   i18n: {
-    vueI18n: './plugins/i18n.ts'
+    vueI18n: './i18n.config.js'
   },
   css: [
     'vuetify/lib/styles/main.sass',
