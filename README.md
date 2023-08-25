@@ -2,6 +2,13 @@
 
 A frontend starter with Nuxt3 and essential plugins.
 
+```sh
+npm ci
+cd src
+npm ci
+npm run dev
+```
+
 ## Requirements
 
 - Node 18
