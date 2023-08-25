@@ -7,30 +7,25 @@
 </template>
 
 <script setup>
+const runtimeConfig = useRuntimeConfig();
 
-import { computed } from 'vue';
-
-const runtimeConfig = useRuntimeConfig()
-
-const i18n = useI18n()
+const i18n = useI18n();
 
 const title = computed(() => {
   if (runtimeConfig.public.environment === 'integration') {
-    return `App ${i18n.t('integration')}`
+    return `App ${i18n.t('integration')}`;
   }
   if (runtimeConfig.public.environment === 'production') {
-    return 'App'
+    return 'App';
   }
-  return `App ${i18n.t('development')}`
+  return `App ${i18n.t('development')}`;
 });
 
 const emit = defineEmits({
-  menuUpdate: undefined
-})
-  
+  menuUpdate: undefined,
+});
+
 async function updateVisibleMenu() {
   emit('menuUpdate');
-};
-
-
+}
 </script>

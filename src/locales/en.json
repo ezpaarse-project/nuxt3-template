@@ -7,7 +7,8 @@
   },
   "page1": "English text for first page",
   "page2": "English text for second page",
-  "link": "The guys who did that <a href=\"{githubProfileURL}\" target=\"_blank\">is him</a>",
+  "link": "The guys who did that {link}",
+  "linkText": "is him",
   "theme": {
     "dark": "Dark theme",
     "light": "Light theme"

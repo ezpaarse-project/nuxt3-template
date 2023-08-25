@@ -1,0 +1,15 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"],
+      "assets/*": ["./assets/*"],
+      "public/*": ["./public/*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
