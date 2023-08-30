@@ -2,9 +2,9 @@
   <v-app>
     <ClientOnly>
       <NuxtLayout>
-        <SkeletonAppBar @menuUpdate="updateVisibleMenu()" />
+        <SkeletonAppBar @menu-update="updateVisibleMenu()" />
         <SkeletonAppMenu v-model="visible" />
-        <SkeletonSnackbar />
+        <SkeletonAppSnackbar />
         <v-main>
           <NuxtPage />
         </v-main>
@@ -14,18 +14,15 @@
 </template>
 
 <script setup>
-
-import { ref } from 'vue';
-
-let visible = ref(false);
+const visible = ref(false);
 
 const emit = defineEmits({
-  updated: () => true
-})
+  updated: () => true,
+});
 
 async function updateVisibleMenu() {
   visible.value = !visible.value;
   emit('updated');
-};
+}
 
 </script>

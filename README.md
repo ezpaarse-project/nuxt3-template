@@ -1,10 +1,20 @@
 # Nuxt 3 Starter
-A frontend starter with nuxt3 and essential plugins.
 
-## prerequis
-- node 18
+A frontend starter with Nuxt3 and essential plugins.
+
+```sh
+npm ci
+cd src
+npm ci
+npm run dev
+```
+
+## Requirements
+
+- Node 18
 
 ## Plugins installed
+
 - Vite (builder)
 - Vuetify 3 (css)
 - Material design icons (icons)
@@ -13,9 +23,9 @@ A frontend starter with nuxt3 and essential plugins.
 - Axios (HTTP client)
 
 ## Default components
+
 - App Bar
 - Open-close App Menu
 - Router
 - Dark theme
-- Reusable Snack that works with Pinia
-
+- Reusable Snackbar that works with Pinia

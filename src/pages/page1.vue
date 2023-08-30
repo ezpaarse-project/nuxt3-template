@@ -1,11 +1,11 @@
 <template>
   <section>
-    <p class="text-center ma-2"> {{ t("page1")}} </p>
+    <p class="text-center ma-2">
+      {{ t("page1") }}
+    </p>
   </section>
 </template>
 
 <script setup>
-
-const { t } = useI18n()
-
+const { t } = useI18n();
 </script>
