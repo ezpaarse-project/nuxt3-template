@@ -1,0 +1,35 @@
+<template>
+  <div class="text-center ma-4">
+    <v-btn class="my-4" :loading="loading" @click="requestGithub">
+      Request github
+    </v-btn>
+    <p> Fullname : {{ fullname }} </p>
+  </div>
+</template>
+
+<script setup>
+
+const { $api } = useNuxtApp();
+
+const loading = ref(false);
+const fullname = ref('');
+
+async function requestGithub() {
+  let res;
+  try {
+    loading.value = true;
+
+    res = await $api({
+      method: 'GET',
+      url: '/users/felixleo22',
+    });
+  } catch (err) {
+    loading.value = false;
+    fullname.value = error;
+    return;
+  }
+  loading.value = false;
+  fullname.value = res?.data?.name;
+}
+
+</script>

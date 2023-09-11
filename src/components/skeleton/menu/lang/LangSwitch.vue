@@ -11,6 +11,7 @@
 </template>
 
 <script setup>
+
 const { t } = useI18n();
 
 const open = ref(['Lang']);

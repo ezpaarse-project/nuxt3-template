@@ -1,0 +1,17 @@
+<template>
+  <div class="text-center ma-4">
+    <v-btn class="ma-2" @click="i18n.setLocale('fr')">
+      Français
+    </v-btn>
+    <v-btn class="ma-2" @click="i18n.setLocale('en')">
+      English
+    </v-btn>
+    <p> {{ i18n.t('language') }}</p>
+  </div>
+</template>
+
+<script setup>
+
+const i18n = useI18n();
+
+</script>

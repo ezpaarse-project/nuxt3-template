@@ -1,0 +1,12 @@
+<template>
+  <highlightjs
+    language="json"
+    :code="highlightjsCode"
+  />
+</template>
+
+<script setup>
+
+const highlightjsCode = ref('{ "name": "John", "age": 22 }');
+
+</script>

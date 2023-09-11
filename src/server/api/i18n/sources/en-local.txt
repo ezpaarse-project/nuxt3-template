@@ -1,0 +1,4 @@
+// ~/locales/en.json
+{
+  "lang": "English",
+}

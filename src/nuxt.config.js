@@ -4,10 +4,11 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      environment: process.env.NODE_ENV || 'development',
-      version: process.env.VERSION || 'development',
-      APIHost: process.env.API_HOST || 'https://api.github.com/',
-      githubProfileURL: process.env.GITHUB_PROFILE_URL || 'https://github.com/felixleo22',
+      environment: process.env.NUXT_PUBLIC_NODE_ENV || 'development',
+      version: process.env.NUXT_PUBLIC_VERSION || 'development',
+      APIHost: process.env.NUXT_PUBLIC_API_HOST || 'https://api.github.com/',
+      githubProfileURL: process.env.NUXT_PUBLIC_GITHUB_PROFILE_URL || 'https://github.com/felixleo22',
+      npmHost: process.env.NUXT_PUBLIC_NPM_HOST || 'https://www.npmjs.com/package',
     },
   },
 

@@ -10,6 +10,7 @@
     @input="updateVisible($event)"
   >
     <SkeletonMenuListRouter />
+    <SkeletonMenuCodeSwitch />
     <SkeletonMenuLangSwitch />
     <v-spacer />
     <template #append>

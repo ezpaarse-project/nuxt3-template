@@ -1,0 +1,20 @@
+<template>
+ <div class="text-center ma-4">
+    <v-btn class="ma-2" @click="i18n.setLocale('fr')">
+      Français
+    </v-btn>
+    <v-btn class="ma-2" @click="i18n.setLocale('en')">
+      English
+    </v-btn>
+    </div>
+    <p class="text-center ma-4">
+      {{ $dateFns.format(new Date()) }}
+    </p>
+  </div>
+</template>
+
+<script setup>
+
+const { $dateFns } = useNuxtApp();
+
+</script>

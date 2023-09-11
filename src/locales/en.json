@@ -5,8 +5,7 @@
     "first": "First page",
     "second": "Second page"
   },
-  "page1": "English text for first page",
-  "page2": "English text for second page",
+  "dependencies": "Dependencies",
   "link": "The guys who did that {link}",
   "linkText": "is him",
   "theme": {
@@ -18,9 +17,40 @@
     "success": "The request was successful",
     "error": "Cannot request Github"
   },
-  "snackbar": {
-    "button": "Open snack",
-    "open": "I am snack"
+  "development": "Development",
+  "code": "Code",
+  "example": "Example",
+  "axios": {
+    "install": "You need to install {package1}.",
+    "plugin": "You need to create file {file} in the {plugin}.",
+    "request": "Request github",
+    "fullname": "Fullname :"
   },
-  "development": "Development"
+  "date-fns": {
+    "install": "You need to install {package1}.",
+    "plugin": "You need to create file {file} in the {plugin}."
+  },
+  "highlightjs": {
+    "install": "You need to install {package1}.",
+    "plugin": "You need to create file {file} in the {plugin}."
+  },
+  "i18n": {
+    "install": "You need to install {package1} and {package2}.",
+    "config": "You need to create file {file} in the {config}.",
+    "nuxtConfig": "In the {nuxtConfig}, you need to add :",
+    "locale": "You need to create file {en} and {fr} in the {file}"
+  },
+  "open-api": {
+    "install": "You need to install {package1}."
+  },
+  "store": {
+    "install": "You need to install {package1}.",
+    "nuxtConfig": "In the {nuxtConfig}, you need to add :",
+    "increment": "increment"
+  },
+  "vuetify": {
+    "install": "You need to install {package1} and {package2}.",
+    "plugin": "You need to create file {file} in the {plugin}.",
+    "nuxtConfig": "In the {nuxtConfig}, you need to add :"
+  }
 }

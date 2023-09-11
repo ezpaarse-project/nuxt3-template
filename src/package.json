@@ -17,10 +17,12 @@
     ]
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
     "@mdi/font": "^7.2.96",
     "@nuxtjs/i18n": "^8.0.0-rc.2",
     "@pinia/nuxt": "^0.4.11",
     "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
     "pinia": "^2.1.6",
     "sass": "^1.65.1",
     "vuetify": "^3.3.12"

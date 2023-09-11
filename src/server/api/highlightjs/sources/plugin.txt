@@ -1,0 +1,10 @@
+// ~/plugins/highlight.client.js
+import 'highlight.js/styles/stackoverflow-light.css';
+import 'highlight.js/lib/common';
+import hljsVuePlugin from '@highlightjs/vue-plugin';
+
+import { defineNuxtPlugin } from '#imports';
+
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(hljsVuePlugin);
+});

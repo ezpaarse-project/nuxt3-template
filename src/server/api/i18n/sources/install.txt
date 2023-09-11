@@ -1,0 +1,2 @@
+npm i @nuxtjs/i18n 
+npm i --save-dev vue-i18n

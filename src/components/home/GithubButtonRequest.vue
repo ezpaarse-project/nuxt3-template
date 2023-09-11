@@ -37,7 +37,6 @@ async function requestGithub() {
       url: '/users/felixleo22',
     });
   } catch (err) {
-    console.log(err);
     snackStore.error(t('request.error'));
   }
 

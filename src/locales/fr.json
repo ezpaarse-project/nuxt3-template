@@ -5,9 +5,9 @@
     "first": "Première page",
     "second": "Deuxième page"
   },
-  "page1": "Texte français pour la première page",
-  "page2": "Texte français pour la deuxième page",
-  "link": "Le gars qui à fait ça <a href=\"{link}\" target=\"_blank\">c'est lui</a>",
+  "dependencies": "Dépendances",
+  "link": "Le gars qui à fait ça {link}",
+  "linkText": "c'est lui",
   "theme": {
     "dark": "Thème sombre",
     "light": "Thème clair"
@@ -17,9 +17,40 @@
     "success": "La requête a réussi",
     "error": "Impossible de requêter Github"
   },
-  "snackbar": {
-    "button": "Ouvrir une snack",
-    "open": "Je suis une snack"
+  "development": "Développement",
+  "code": "Code",
+  "example": "Exemple",
+  "axios": {
+    "install": "Vous devez installer {package1}.",
+    "plugin": "Vous devez créer le fichier {file} dans le dossier {plugin}.",
+    "request": "Requête à Github",
+    "fullname": "Nom complet:"
   },
-  "development": "Développement"
+  "date-fns": {
+    "install": "Vous devez installer {package1}.",
+    "plugin": "Vous devez créer le fichier {file} dans le dossier {plugin}."
+  },
+  "highlightjs": {
+    "install": "Vous devez installer {package1}.",
+    "plugin": "Vous devez créer le fichier {file} dans le dossier {plugin}."
+  },
+  "i18n": {
+    "install": "Vous devez installer {package1} et {package2}.",
+    "config": "Vous devez créer le fichier {file} dans le dossier {config}.",
+    "nuxtConfig": "Dans votre fichier {nuxtConfig}, vous devez ajouter :",
+    "locale": "Vous devez créer le fichier {en} et {fr} dans le dossier {file}"
+  },
+  "open-api": {
+    "install": "Vous devez installer {package1}."
+  },
+  "store": {
+    "install": "Vous devez installer {package1}.",
+    "nuxtConfig": "Dans votre fichier {nuxtConfig}, vous devez ajouter :",
+    "increment": "Incrementer"
+  },
+  "vuetify": {
+    "install": "Vous devez installer {package1} et {package2}.",
+    "plugin": "Vous devez créer le fichier {file} dans le dossier {plugin}.",
+    "nuxtConfig": "Dans votre fichier {nuxtConfig}, vous devez ajouter :"
+  }
 }
