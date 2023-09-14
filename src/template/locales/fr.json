@@ -1,0 +1,22 @@
+{
+  "language": "Langue",
+  "menu": {
+    "home": "Accueil",
+    "first": "Première page",
+    "second": "Deuxième page"
+  },
+  "pages": "pages",
+  "link": "Le gars qui à fait ça {link}",
+  "linkText": "c'est lui",
+  "theme": {
+    "dark": "Thème sombre",
+    "light": "Thème clair"
+  },
+  "request": {
+    "info": "Vous avez lancé une requête à Github",
+    "success": "La requête a réussi",
+    "error": "Impossible de requêter Github"
+  },
+  "development": "Développement",
+  "example": "Exemple"
+}

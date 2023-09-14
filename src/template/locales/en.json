@@ -1,0 +1,22 @@
+{
+  "language": "Language",
+  "menu": {
+    "home": "Home",
+    "first": "First page",
+    "second": "Second page"
+  },
+  "pages": "pages",
+  "link": "The guys who did that {link}",
+  "linkText": "is him",
+  "theme": {
+    "dark": "Dark theme",
+    "light": "Light theme"
+  },
+  "request": {
+    "info": "You start to request Github",
+    "success": "The request was successful",
+    "error": "Cannot request Github"
+  },
+  "development": "Development",
+  "example": "Example"
+}
